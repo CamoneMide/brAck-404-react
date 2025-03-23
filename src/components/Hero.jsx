@@ -50,30 +50,30 @@ const Hero = () => {
         </Container>
         <Container
           className={
-            "mt-[76.5px] border-t-[#6B7280E5] border-t-[0.5px] flex flex-col"
+            "mt-[56px] lg:mt-[76.5px] border-t-[#6B7280E5] border-t-[0.5px] flex flex-col"
           }
         >
           <h4 className="text-[24px] font-[700] leading-[100%] text-[#000000E5] tracking-[7%] pt-[40px]">
             You might find these helpful:
           </h4>
-          <div className="flex justify-between items-center w-full lg:w-[719px] mx-auto pt-[64px] gap-[10px]">
+          <div className="flex justify-between items-center w-full lg:w-[719px] mx-auto pt-[44px] lg:pt-[64px] gap-[10px]">
             <button
               className={
-                "border-[1px] border-[#006979] text-[18px] font-[600] rounded-[8px] tracking-[0%] leading-[100%] text-[#006979] bg-[#FFF] w-full lg:w-[181px] h-[38px] flex justify-center items-center"
+                "border-[1px] border-[#006979] text-[14px] lg:text-[18px] font-[600] rounded-[8px] tracking-[0%] leading-[100%] text-[#006979] bg-[#FFF] w-full lg:w-[181px] h-[38px] flex justify-center items-center"
               }
             >
               Refresh the Page
             </button>
             <button
               className={
-                "border-[1px] border-[#006979] text-[18px] font-[600] rounded-[8px] tracking-[0%] leading-[100%] text-[#006979] bg-[#FFF] w-full lg:w-[181px] h-[38px] flex justify-center items-center"
+                "border-[1px] border-[#006979] text-[14px] lg:text-[18px] font-[600] rounded-[8px] tracking-[0%] leading-[100%] text-[#006979] bg-[#FFF] w-full lg:w-[181px] h-[38px] flex justify-center items-center"
               }
             >
               Contact Support
             </button>
             <button
               className={
-                "border-[1px] border-[#006979] text-[18px] font-[600] rounded-[8px] tracking-[0%] leading-[100%] text-[#006979] bg-[#FFF] w-full lg:w-[181px] h-[38px] flex justify-center items-center"
+                "border-[1px] border-[#006979] text-[14px] lg:text-[18px] font-[600] rounded-[8px] tracking-[0%] leading-[100%] text-[#006979] bg-[#FFF] w-full lg:w-[181px] h-[38px] flex justify-center items-center"
               }
             >
               FAQ

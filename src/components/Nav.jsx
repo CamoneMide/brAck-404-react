@@ -9,7 +9,7 @@ const Nav = () => {
       <nav className="flex justify-center items-center pt-[48px] h-[38px]">
         <Container className={"flex justify-between items-center h-full"}>
           <div className="text-[24px] font-[700] leading-[100%] tracking-[7%] text-[#006979]">
-            BrAck
+            <a href="">BrAck</a>
           </div>
           <div className="hidden lg:flex gap-[48px]">
             {navLinks.map((link) => {
